@@ -1,0 +1,23 @@
+/* COLOR */
+
+.light-grey{
+    color: #c4c4c4;
+}
+.grey{
+    color: #919191;
+}
+.dark-grey{
+    color: #535353;
+}
+.blue{
+    color: #405783;
+}
+.black{
+    color: #333333;
+}
+
+/* FONT */
+
+.f1{
+    font-family: 'Lora', serif;
+}

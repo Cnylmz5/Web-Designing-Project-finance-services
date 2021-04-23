@@ -1,0 +1,218 @@
+@media (max-width: 1100px) {
+    #nav .nav-items{
+        margin-left: 2rem;
+    }
+    #detail .detail-items{
+        display: flex;
+        flex-direction: column;
+    }
+    #detail .detail-items .coloumn-right img{
+        margin-left: 10rem;
+    }
+  }
+  @media (max-width: 1000px){
+    #contact .contact-items .contact-img img{
+        margin-top: 1rem;
+        width: 300px;
+    }
+  }
+  
+  @media (max-width: 900px){
+    #services .services-item .coloumn h2{
+        margin-top: 1rem;
+    }
+    #detail .detail-items .coloumn-right img{
+        margin-left: 9rem;
+    }
+    #contact .contact-items{
+        display: flex;
+        flex-direction: column;
+    }
+    #contact .contact-items .contact-img img{
+        display: none;
+    }
+  }
+  
+  @media (max-width: 850px){
+    #services .services-item .coloumn h2{
+        font-size: 1.1rem;
+    }
+    #services .services-item .coloumn p,a{
+        font-size: 0.9rem;
+    }
+    #plan .plan-items .coloumn img{
+        width: 330px;
+    }
+    #detail .detail-items .coloumn-right img{
+        margin-left: 8rem;
+        width: 450px;
+    }
+    #client .client-items{
+       display: flex;
+       flex-direction: column;
+    }
+    #client .client-items .client-img{
+        text-align: center;
+        margin-bottom: 1rem;
+    }
+  }
+  @media (max-width: 800px){
+    #services .services-item .coloumn img{
+        width: 300px;
+    }
+    #services .services-item .coloumn h2{
+        margin-top: 0rem;
+    }
+    #plan .plan-items .coloumn img{
+        width: 300px;
+    }
+    #detail .detail-items .coloumn-right img{
+        margin-left: 7rem;
+        width: 430px;
+    }
+  }
+
+
+
+  @media (max-width: 750px){
+    #services .services-item{
+        display: flex;
+        flex-direction: column;
+    }
+    #services .services-item .coloumn img{
+        width: 200px;
+        margin-left: 10rem;
+        border-radius: 100%;
+  }
+  #services .services-item .coloumn h2{
+    margin-top: 2rem;
+}
+#plan .plan-items{
+    display: flex;
+    flex-direction: column;
+}
+#plan .plan-items .coloumn{
+    margin-top: 2rem;
+}
+#detail .detail-items .coloumn-right img{
+    margin-left: 5rem;
+    width: 400px;
+}
+
+
+
+  @media (max-width: 700px) {
+    #nav .nav-items .nav-menu ul li{
+        display: none;
+    }
+    #burger-menu{
+        display: block;
+        font-size: 2.5rem;
+    }
+    #services .services-head h4{
+        font-size: 0.8rem;
+    }
+    #detail .detail-items .coloumn-right img{
+        margin-left: 4rem;
+        width: 350px;
+    }
+    #detail .detail-items .coloumn-left .coloumn .coloumn-number{
+        display: none;
+    }
+    #detail .detail-items .coloumn-right img{
+        display: none;
+    }
+    }
+    @media (max-width:550px){
+        #about .about-head p{
+            margin: 2rem;
+        }
+        #about .about-head h2{
+            font-size: 2rem;
+        }
+        #about .about-items{
+            display: flex;
+            flex-direction: column;
+            margin-top: 2rem;
+        }
+        #about .about-items .info{
+            margin-top: 1rem;
+            text-align: center;
+        }
+        #about .about-items h2{
+            font-size: 2rem;
+        }
+        #about .about-items p{
+            font-size: 0.9rem;
+        }
+    }
+    #detail .detail-items .coloumn-right img{
+        margin-left: 3rem;
+        width: 300px;
+    }
+    @media (max-width: 520px) {
+        #services .services-head h4{
+            font-size: 0.7rem;
+            margin-top: 1rem;
+            margin-bottom: -2rem;
+        }
+        #about .about-head h2{
+            font-size: 1.9rem;
+        }
+        #services .services-item .coloumn img{
+            margin-left: 5rem;
+            
+      }
+      #contact .contact-items .contact-form ul input,textarea,select{
+        width: 20rem;
+        
+    }
+    }
+        @media (max-width: 500px) {
+            #services .services-head h4{
+                font-size: 0.6rem;
+            }
+            #about .about-head p{
+                margin: 1rem;
+            }
+            #about .about-head h2{
+                font-size: 1.7rem;
+            }
+            #contact .contact-items .contact-form ul input,textarea,select{
+                width: 19rem;
+                
+            }
+        }
+            @media (max-width: 450px) {
+                #client .client-items .client-img img{
+                    width: 250px;
+                }
+                #services .services-head h2{
+                    font-size: 1.7rem;
+                }
+                #services .services-head h4{
+                    font-size: 0.55rem;
+                }
+                #about .about-head p{
+                    margin-top: 1rem;
+                    margin: 0rem;
+                    margin-bottom: 1rem;
+                }
+                #about .about-head h2{
+                    font-size: 1.3rem;
+                    margin-bottom: 1rem;
+                }
+                #detail .detail-items .coloumn-right img{
+                    margin-left: 1rem;
+                    width: 250px;
+                }
+                #contact .contact-items .contact-form ul input,textarea,select{
+                    width: 17rem;
+                    
+                }
+                #detail .detail-items .coloumn-left .coloumn .coloumn-text{
+                    margin-left: 0rem;
+                }
+            }
+    }      
+    
